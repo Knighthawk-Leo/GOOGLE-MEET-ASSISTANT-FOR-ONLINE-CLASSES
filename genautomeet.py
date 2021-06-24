@@ -29,72 +29,61 @@ while True:
     while(940<=justtime):
         #MATHS SHEDULE
         if(day=="Monday" and 955<=justtime<=1050 or day=="Wednesday" and 955<=justtime<=1050 or day=="Thursday" and 1055<=justtime<=1250 or day=="Friday" and 1255<=justtime<=1250):
-            print("YOU ARE JOINING TO MATHS CLASS HOPE YOU COMPLETED THE PREVIOUS STUFFS")
+            pyautogui.prompt(text="YOU ARE JOINING TO MATHS CLASS HOPE YOU COMPLETED THE PREVIOUS STUFFS")
             time.sleep(2)
-            webbrowser.get("C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s").open_new("https://meet.google.com/aph-qqhv-pgw")
+            webbrowser.get("C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s").open_new("https://meet.google.com/weg-kaez-ytb")
             
             
-            time.sleep(3)  # making a delay of 5 seconds
+            time.sleep(5)
             pyautogui.click(659, 960)
-            time.sleep(3)
-            pyautogui.click(550, 948)
-
-            time.sleep(3)  # making a delay of 3 seconds
+            time.sleep(5)
+            pyautogui.hotkey('ctrl','d')
+            time.sleep(5)
             pyautogui.click(1425, 720)
-
-
-            time.sleep(200)
+            time.sleep(2500)
             break
-        
-        
         #BEE SHEDULE
-       if(day=="Monday" and 1055<=justtime<=1150 or day=="Thursday" and 1155<=justtime<=1250 or day=="Friday" and 1055<=justtime<=1150)
+        if(day=="Monday" and 1055<=justtime<=1150 or day=="Thursday" and 1155<=justtime<=1250 or day=="Friday" and 1055<=justtime<=1150):
             print("YOU ARE JOINING TO BEE CLASS HOPE YOU COMPLETED THE PREVIOUS STUFF")
+           
             time.sleep(2)
             webbrowser.get("C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s").open_new("https://meet.google.com/pex-ktrx-qrk")
-                        time.sleep(3)  # making a delay of 5 seconds
+            time.sleep(5)
             pyautogui.click(659, 960)
-            time.sleep(3)
-            pyautogui.click(550, 948)
-
-            time.sleep(3)  # making a delay of 3 seconds
+            time.sleep(5)
+            pyautogui.hotkey('ctrl','d')
+            time.sleep(5)
             pyautogui.click(1425, 720)
+            time.sleep(2500)
 
-
-            time.sleep(200)
-            break
+            
         #CHEMISTRY SHEDULE
         if(day=="Monday" and 1155<=justtime<=1250 or day=="Tuesday" and 955<=justtime<=1050 or day=="Wednesday" and 1155<=justtime<=1250):
+            
             print("YOU ARE JOINING TO CHEMISTRY CLASS HOPE YOU COMPLETED THE PREVIOUS STUFF")
             time.sleep(2)
             webbrowser.get("C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s").open_new("https://meet.google.com/sbp-urci-ibv")
-            time.sleep(3)  # making a delay of 5 seconds
+            time.sleep(5)
             pyautogui.click(659, 960)
-            time.sleep(3)
-            pyautogui.click(550, 948)
-
-            time.sleep(3)  # making a delay of 3 seconds
+            time.sleep(5)
+            pyautogui.hotkey('ctrl','d')
+            time.sleep(5)
             pyautogui.click(1425, 720)
-
-
-            time.sleep(200)
+            time.sleep(2500)
             break
         #ECOLOGY SHEDULE
         if(day=="Tuesday" and 1155<=justtime<=1250 or day=="Wednesday" and 1055<=justtime<=1150 or day=="Thursday" and 940<=justtime<=1050 ):
             
             print("YOU ARE JOINING TO ECOLOGY CLASS HOPE YOU COMPLETED THE PREVIOUS STUFFS")
             
-            webbrowser.get("C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s").open_new("https://meet.google.com/aed-dnej-jta")
-            time.sleep(3)  # making a delay of 5 seconds
+            webbrowser.get("C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s").open_new("https://meet.google.com/vhg-ptym-znf")
+            time.sleep(5)
             pyautogui.click(659, 960)
-            time.sleep(3)
-            pyautogui.click(550, 948)
-
-            time.sleep(3)  # making a delay of 3 seconds
+            time.sleep(5)
+            pyautogui.hotkey('ctrl','d')
+            time.sleep(5)
             pyautogui.click(1425, 720)
-
-
-            time.sleep(200)
+            time.sleep(2500)
             break
         
         #IWT SHEDULE
@@ -102,20 +91,38 @@ while True:
             print("YOU ARE JOINING TO MATHS CLASS HOPE YOU COMPLETED THE PREVIOUS STUFFS")
             time.sleep(2)
             webbrowser.get("C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s").open_new("https://meet.google.com/aed-dnej-jta")
-            time.sleep(3)  # making a delay of 5 seconds
+            time.sleep(5)
             pyautogui.click(659, 960)
-            time.sleep(3)
-            pyautogui.click(550, 948)
-
-            time.sleep(3)  # making a delay of 3 seconds
+            time.sleep(5)
+            pyautogui.hotkey('ctrl','d')
+            time.sleep(5)
             pyautogui.click(1425, 720)
-
-
-            time.sleep(200)
-            time.sleep(300)
+            time.sleep(2500)
             break
+
+        if(justtime>1500):
+            
+            pyautogui.alert(text='classes are over you are joining to test class ',button='ok')
+            time.sleep(2)
+            webbrowser.get("C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s").open_new("https://meet.google.com/dqy-tgte-vco")
+            time.sleep(5)
+            pyautogui.click(659, 960)
+            time.sleep(5)
+            pyautogui.hotkey('ctrl','d')
+            time.sleep(5)
+            pyautogui.click(1425, 720)
+            time.sleep(2500)
+            break
+
+            quit()
+            break
+
         
     time.sleep(60-se)
+
+    
+        
+    
 
 
 
